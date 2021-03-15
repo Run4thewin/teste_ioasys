@@ -1,0 +1,47 @@
+{
+    "mongoURL": "mongodb+srv://imdb_ioasys_adm:nXXPUnhSjqUHAAE0@imdbioasys.w6c9x.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "rashCode": "48cc9caa20c70b7d03ad8bef74c24cdc",
+    "routesAdminRequired": [
+        {
+            "path": {
+                "methods":[
+                    "post",
+                    "put",
+                    "delete"
+                ],
+                "route":"/movie/"
+            }
+        },
+        {
+            "path": {
+                "methods":[
+                    "post",
+                    "put",
+                    "delete"
+                ],
+                "route":"/artists/"
+            }
+        },
+        {
+            "path": {
+                "methods":[
+                    "post",
+                    "put",
+                    "delete"
+                ],
+                "route":"/movieGender/"
+            }
+        }
+        
+    ],
+    "routesForNonAdmins": {
+        "path": {
+            "methods":[
+                "post",
+                "put",
+                "delete"
+            ],
+            "route":"/movieGender/"
+        }
+    }
+}

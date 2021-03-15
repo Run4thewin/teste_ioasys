@@ -1,0 +1,11 @@
+Entidades:
+    USUARIOS
+    FILMES
+    VOTOS
+    ACTORS
+
+falta melhorar a segurança com JWT e validar usuario adm na hora de alterar ou adicionar filmes
+
+
+imdb_ioasys_adm
+nXXPUnhSjqUHAAE0
